@@ -38,7 +38,7 @@ impl Cli {
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn Error>> {
-    println!("Hello, Hello. Welcome to PyRustProject!!!");
+    println!("Hello, Hello. Welcome to Py-Project-CLI!!!");
 
     let re = Regex::new(r#"\$\{(?P<section_name>[\w\s\-:.=_<>"]+)\}"#)?;
     let args = Cli::parse();

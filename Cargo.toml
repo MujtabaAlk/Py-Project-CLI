@@ -1,5 +1,5 @@
 [package]
-name = "py_project_cli"
+name = "py-project-cli"
 version = "0.1.0"
 edition = "2021"
 
